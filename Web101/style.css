@@ -1,0 +1,18 @@
+/* Desktop First*/
+body {
+    background-color: blueviolet;
+}
+@media only screen and (max-width: 1170px) {
+body {
+    background-color: rgb(181, 162, 199);}
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: rgb(168, 131, 196);}
+    }
+
+    @media only screen and (max-width: 320px) {
+        body {
+            background-color: rgb(50, 15, 83);}
+        }
